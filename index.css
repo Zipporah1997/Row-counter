@@ -1,0 +1,81 @@
+body {
+    background-image: url("station.jpg");
+
+    background-size: cover;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+.banner-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #0F180B80;
+    z-index: 1;
+
+
+}
+
+h1 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: white;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: darkred;
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
+#welcome-el {
+    margin-top: 5%;
+    margin-bottom: 10px;
+    color: white;
+}
+
+#save-el {
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.container {
+
+    max-width: 80%;
+    margin: auto;
+    margin-top: 10%;
+
+}
+
+@media (max-width: 681px) {
+    .container {
+        margin-top:20px;
+    }
+}
